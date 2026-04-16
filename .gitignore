@@ -1,0 +1,38 @@
+﻿# Secrets and environment files
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.keystore
+
+# Credentials and private configs
+*credentials*
+*secret*
+*token*
+*.kdbx
+
+# Customer or local data
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+exports/
+customer-data/
+private/
+internal/
+
+# Common generated files
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.DS_Store
+Thumbs.db
