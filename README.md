@@ -1,4 +1,4 @@
-﻿# KeyRing AI Developer Resources
+# KeyRing AI Developer Resources
 
 This repository contains public documentation, examples, and integration resources for KeyRing AI.
 
@@ -8,8 +8,11 @@ The core KeyRing AI application is proprietary and is not included in this repos
 
 - Public developer documentation
 - Quickstart and integration guidance
-- Public example placeholders
-- Security reporting guidance
+- Public examples and example placeholders
+- Security and trust-model documentation
+- Local-first architecture overview
+- Provider API key setup guidance
+- Provider Manager workflow documentation
 - Changelog and repository notices
 - Reviewable public-facing materials for customers and developers
 
@@ -23,12 +26,24 @@ The core KeyRing AI application is proprietary and is not included in this repos
 - Internal tools, release scripts, or private infrastructure details
 - Any copy of the private application repository history
 
+## Public Documentation
+
+Start here:
+
+- [Documentation Index](docs/index.md)
+- [Quickstart](docs/quickstart.md)
+- [Getting Started](docs/getting-started.md)
+- [Security and Trust Model](docs/security-and-trust.md)
+- [Local-First Architecture](docs/local-first-architecture.md)
+- [Provider API Keys](docs/provider-api-keys.md)
+- [Provider Manager](docs/provider-manager.md)
+
 ## Links
 
-- Website: [Website URL]
-- Pricing: [Pricing URL]
+- Website: https://keyringlabs.com
+- Pricing: https://keyringlabs.com/pricing
 - Support: [Support URL or support email]
-- Documentation: [Documentation URL]
+- Documentation: https://keyringlabs.com/docs
 
 ## Repository Status
 
