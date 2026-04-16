@@ -1,4 +1,4 @@
-﻿# Notice
+# Notice
 
 This repository is a public developer resources repository for KeyRing AI.
 

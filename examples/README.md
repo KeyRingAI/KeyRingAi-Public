@@ -1,4 +1,4 @@
-﻿# Examples
+# Examples
 
 This folder is reserved for public KeyRing AI examples.
 

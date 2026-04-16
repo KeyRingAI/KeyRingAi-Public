@@ -1,4 +1,4 @@
-﻿# Security
+# Security
 
 Please report suspected security issues privately.
 
