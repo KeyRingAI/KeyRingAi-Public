@@ -2,6 +2,8 @@
 
 KeyRing AI is a desktop application with a local runtime and a separate website trust layer. This document explains the public architecture at a high level.
 
+For a broader system map, see [Architecture Overview](architecture-overview.md). For trust-zone detail, see [Runtime Boundaries](runtime-boundaries.md) and [Public Data Flows](data-flows.md).
+
 ## High-Level Model
 
 KeyRing AI has four public-facing architectural concepts:
@@ -85,6 +87,7 @@ This design is intended to make the system easier to reason about:
 - Customers keep provider account relationships directly with providers.
 - Website trust flows are separated from normal AI request execution.
 - The local runtime has a clear role in request orchestration and workflow state.
+- Provider-specific model behavior can be handled close to the actual provider request.
 
 ## Public Documentation Boundary
 

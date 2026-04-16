@@ -4,6 +4,8 @@ Provider Manager is KeyRing AI's provider maintenance surface. It is used to ins
 
 This document describes public product behavior only. It does not expose proprietary registry implementation details.
 
+For the higher-level provider architecture, see [Provider Orchestration](provider-orchestration.md). For reasoning-capable models, see [Reasoning Models](reasoning-models.md).
+
 ## What Provider Manager Does
 
 Provider Manager helps with:
@@ -54,6 +56,8 @@ A typical model sync flow:
 
 Discovery results are not durable until saved.
 
+After a model inventory is saved, KeyRing can use the saved inventory together with provider mode mappings and model policy rules to make the model available where it is supported.
+
 ## Routing Controls
 
 Routing controls map KeyRing AI provider modes to concrete provider models.
@@ -87,20 +91,23 @@ Provider Manager is a maintenance surface. Public behavior may include limitatio
 - Requiring saved model inventory before routing mappings can be useful.
 - Showing a preview list that may not render every model at once.
 - Falling back to read-only provider data if the registry control plane is unavailable.
+- Relying on the user's provider account for final model access, quota, billing, and region eligibility.
 
 ## Recommended Workflow
 
 1. Select the provider you want to maintain.
 2. Sync the model list.
 3. Review discovered models.
-4. Set or update mode mappings.
-5. Adjust visual identity only if needed.
-6. Save changes.
-7. Return to the main workspace and verify the provider behaves as expected.
+4. Save the discovery result.
+5. Set or update mode mappings.
+6. Adjust visual identity only if needed.
+7. Save changes.
+8. Return to the main workspace and verify the provider behaves as expected.
 
 ## Troubleshooting
 
 - **Synced models did not stick:** click Save after reviewing the sync result.
 - **Cannot find every model in the visible panel:** use search and filters; large inventories may be previewed rather than fully displayed at once.
-- **Selected model does not work:** your provider account may not have access to that specific model.
+- **Selected model does not work:** your provider account may not have access to that specific model, or the provider may reject a setting for that model.
+- **Reasoning model rejects a setting:** use provider defaults or remove unsupported advanced controls.
 - **Provider appears unavailable:** confirm your license tier, provider key, billing, selected model, and active provider state.

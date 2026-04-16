@@ -11,6 +11,8 @@ The core KeyRing AI application is proprietary and is not included in this repos
 - Public examples and example placeholders
 - Security and trust-model documentation
 - Local-first architecture overview
+- Runtime boundary and public data-flow guides
+- Provider orchestration and reasoning-model guidance
 - Provider API key setup guidance
 - Provider Manager workflow documentation
 - Changelog and repository notices
@@ -34,10 +36,15 @@ Start here:
 - [Documentation Index](docs/index.md)
 - [Quickstart](docs/quickstart.md)
 - [Getting Started](docs/getting-started.md)
+- [Architecture Overview](docs/architecture-overview.md)
+- [Local-First Architecture](docs/local-first-architecture.md)
+- [Runtime Boundaries](docs/runtime-boundaries.md)
+- [Public Data Flows](docs/data-flows.md)
+- [Provider Orchestration](docs/provider-orchestration.md)
+- [Reasoning Models](docs/reasoning-models.md)
 - [Security and Trust Model](docs/security-and-trust.md)
 - [Security Section](security/README.md)
 - [Public Trust Boundaries](security/trust-boundaries.md)
-- [Local-First Architecture](docs/local-first-architecture.md)
 - [Provider API Keys](docs/provider-api-keys.md)
 - [Provider Manager](docs/provider-manager.md)
 

@@ -2,6 +2,14 @@
 
 All notable changes to this public developer resources repository will be documented in this file.
 
+## 0.4.0 - 2026-04-16
+
+- Added public architecture overview documentation.
+- Added runtime boundary and public data-flow guides.
+- Added provider orchestration and reasoning-model guidance focused on provider differences, model discovery, and provider-safe request shaping.
+- Updated Provider Manager guidance with saved discovery behavior, mode mapping expectations, and provider-side access caveats.
+- Updated README and documentation index links.
+
 ## 0.3.0 - 2026-04-16
 
 - Expanded the public security section with sanitized trust-boundary documentation.
