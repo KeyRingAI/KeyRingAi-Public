@@ -2,7 +2,7 @@
 
 This folder contains public-facing KeyRing AI documentation intended to help customers, developers, and evaluators understand the product without exposing proprietary application source code.
 
-The documents here are derived from public website documentation and marketing pages, then adapted for a GitHub documentation format. They intentionally avoid private implementation details, internal deployment configuration, source code, secrets, and customer data.
+The documents here are derived from public website documentation and public-safe internal documentation themes, then adapted for a GitHub documentation format. They intentionally avoid private implementation details, internal deployment configuration, source code, secrets, and customer data.
 
 ## Start Here
 
@@ -13,6 +13,8 @@ The documents here are derived from public website documentation and marketing p
 ## Trust And Architecture
 
 - [Security and Trust Model](security-and-trust.md) - public trust boundary, prompt path, key handling, and reporting guidance.
+- [Security Section](../security/README.md) - private reporting instructions and public security posture.
+- [Public Trust Boundaries](../security/trust-boundaries.md) - high-level trust-zone reference for evaluators.
 - [Local-First Architecture](local-first-architecture.md) - high-level architecture for the desktop shell, local runtime, frontend workspace, and website trust layer.
 
 ## Product Operations
@@ -31,3 +33,4 @@ This repository documents public behavior and integration concepts. It does not 
 - Deployment configuration or infrastructure automation
 - Customer data
 - Private repository history
+- Internal audit findings or unresolved internal security gap lists

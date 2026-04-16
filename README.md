@@ -24,6 +24,7 @@ The core KeyRing AI application is proprietary and is not included in this repos
 - Secrets, credentials, tokens, certificates, or environment files
 - Customer data or private operational data
 - Internal tools, release scripts, or private infrastructure details
+- Internal audit findings or unresolved internal security gap lists
 - Any copy of the private application repository history
 
 ## Public Documentation
@@ -34,6 +35,8 @@ Start here:
 - [Quickstart](docs/quickstart.md)
 - [Getting Started](docs/getting-started.md)
 - [Security and Trust Model](docs/security-and-trust.md)
+- [Security Section](security/README.md)
+- [Public Trust Boundaries](security/trust-boundaries.md)
 - [Local-First Architecture](docs/local-first-architecture.md)
 - [Provider API Keys](docs/provider-api-keys.md)
 - [Provider Manager](docs/provider-manager.md)
@@ -42,7 +45,7 @@ Start here:
 
 - Website: https://keyringlabs.com
 - Pricing: https://keyringlabs.com/pricing
-- Support: [Support URL or support email]
+- Support: support@keyringlabs.com
 - Documentation: https://keyringlabs.com/docs
 
 ## Repository Status
