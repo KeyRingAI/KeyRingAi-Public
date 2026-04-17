@@ -1,6 +1,14 @@
 # Changelog
 
-All notable changes to this public developer resources repository will be documented in this file.
+All notable changes to this public developer resources repository are documented in this file.
+
+## 0.6.0 - 2026-04-17
+
+- Expanded the public repository into a fuller customer and developer documentation set.
+- Added desktop workspace, provider setup, Model Discovery, Model Configuration, prompt workflow, Chatroom, attachments, prompt preset, history, metrics, Roundtable, agents, tools/consent, media, text-to-speech, status, troubleshooting, local data/privacy, and license/update guides.
+- Added public-safe security documents for vulnerability reporting, trust boundaries, local runtime safety, and provider data responsibility.
+- Added workflow examples and checklists for evaluation, provider setup, Model Discovery, Roundtable, attachments, agents, and provider error triage.
+- Updated the README, documentation index, examples index, and security index to reflect the expanded public documentation set.
 
 ## 0.5.0 - 2026-04-17
 
