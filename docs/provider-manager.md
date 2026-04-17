@@ -2,6 +2,10 @@
 
 Provider Manager is KeyRing AI's provider maintenance surface. It is used to inspect provider records, sync model inventories, map provider modes to concrete models, and adjust provider display details.
 
+![Provider Manager](../assets/screenshots/provider-manager.png)
+
+_Public screenshot: Provider Manager with provider inventory, routing controls, visual identity settings, voice assignment, and discovered model list._
+
 This document describes public product behavior only. It does not expose proprietary registry implementation details.
 
 For the higher-level provider architecture, see [Provider Orchestration](provider-orchestration.md). For reasoning-capable models, see [Reasoning Models](reasoning-models.md).

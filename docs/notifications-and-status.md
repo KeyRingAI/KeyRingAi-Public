@@ -2,6 +2,10 @@
 
 KeyRing AI exposes status information throughout the desktop workspace so users can understand what the app is doing, what requires attention, and where to take corrective action.
 
+![Settings](../assets/screenshots/settings.png)
+
+_Public screenshot: Settings includes desktop notifications, display sizing, theme controls, and dangerous tool consent status._
+
 Status is intentionally visible. Multi-provider AI workflows can fail for many reasons: missing keys, provider quota, unavailable models, unsupported parameters, network problems, long-running media jobs, cancelled requests, or license/update state. A useful workspace should show these states near the action that caused them.
 
 ## Header Status

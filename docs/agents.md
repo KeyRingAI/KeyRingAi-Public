@@ -2,6 +2,14 @@
 
 Agent Builder lets users create local AI workflows that combine a provider, model, role instructions, execution settings, memory behavior, and approved tools. It is intended for repeatable tasks that need more structure than a one-off prompt.
 
+![Agents tab](../assets/screenshots/agent-tab.png)
+
+_Public screenshot: Agents tab with saved agents, run controls, and Agent Builder entry point._
+
+![Agent Builder](../assets/screenshots/agent-builder.png)
+
+_Public screenshot: Agent Builder listing saved agent configurations before editing or creating an agent._
+
 An agent in KeyRing AI is a configured workflow, not an autonomous cloud service. The desktop app remains the user-facing control point. Provider calls are made from the local app using the user's provider keys, and tool access is governed by the user's configuration and consent.
 
 ## Agent Types

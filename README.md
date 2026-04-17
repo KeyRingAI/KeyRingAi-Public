@@ -2,6 +2,10 @@
 
 This repository is the public documentation home for KeyRing AI. It gives customers, developers, and evaluators a clear view of how the product is intended to work without publishing the proprietary application source code.
 
+![KeyRing AI desktop workspace](assets/screenshots/desktop-workspace-expanded-side-nav.png)
+
+_Public screenshot: the main KeyRing AI desktop workspace with expanded navigation, provider controls, Chatroom, and prompt editor._
+
 KeyRing AI is a local-first Windows desktop workspace for working with multiple AI providers from one interface. The desktop app uses the user's own provider accounts and provider API keys. The KeyRing AI website handles account, license, download, update, support, pricing, and documentation flows; it is not the routine relay for customer prompts and model responses.
 
 ## What Is Included
@@ -30,6 +34,7 @@ KeyRing AI is a local-first Windows desktop workspace for working with multiple 
 ## Start Here
 
 - [Documentation Index](docs/index.md)
+- [Screenshot Gallery](docs/screenshot-gallery.md)
 - [Quickstart](docs/quickstart.md)
 - [Getting Started With The Desktop App](docs/getting-started-desktop.md)
 - [Desktop Workspace](docs/desktop-workspace.md)

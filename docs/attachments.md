@@ -2,6 +2,10 @@
 
 Attachments let users add local context to KeyRing AI workflows. They are useful for summarizing documents, comparing model handling of the same material, giving an agent a reference file, or running a Roundtable around a shared source.
 
+![Attachment Manager](../assets/screenshots/attachment-manager.png)
+
+_Public screenshot: Attachment Manager with global and provider-scoped attachment controls, ingestion mode, token limit, and diagnostics._
+
 Attachments should be handled deliberately. If attachment content is included in a request to a provider, that provider receives the included content under the provider's terms.
 
 ## Attachment Scope

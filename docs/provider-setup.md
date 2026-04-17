@@ -2,6 +2,10 @@
 
 KeyRing AI is a bring-your-own-key desktop workspace. The user connects provider accounts they already control, then chooses which providers and models to use for each workflow. This design keeps provider billing, access control, and model terms with the provider while giving the user a single local interface for orchestration and comparison.
 
+![API Settings](../assets/screenshots/api-settings.png)
+
+_Public screenshot: API Settings with provider cards, masked API keys, license state, selected models, and update controls._
+
 ## Supported Provider Categories
 
 KeyRing AI is designed around major AI providers used for chat, reasoning, research, vision, image, video, and related workflows. Publicly documented provider slots include OpenAI, Anthropic, Google Gemini, Mistral, Groq, xAI, Cohere, DeepSeek, Together, and Perplexity. ElevenLabs can be configured for voice playback workflows.

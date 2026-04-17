@@ -2,6 +2,10 @@
 
 KeyRing AI uses a bring-your-own-key provider model. You create and manage accounts with the AI providers you want to use, then save those provider API keys in the KeyRing AI desktop app.
 
+![API Settings](../assets/screenshots/api-settings.png)
+
+_Public screenshot: provider API key configuration with credentials masked in the desktop app._
+
 ## Core Idea
 
 KeyRing AI does not provide shared model access or a pooled provider account. For normal provider usage:

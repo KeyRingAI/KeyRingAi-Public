@@ -2,6 +2,10 @@
 
 Roundtable is KeyRing AI's structured multi-provider discussion workflow. It lets a user choose multiple providers and models, give them a shared topic or task, and run a controlled conversation where different models can compare, debate, investigate, collaborate, or build toward a final view.
 
+![Roundtable](../assets/screenshots/roundtable.png)
+
+_Public screenshot: Roundtable with provider participants, conversation modes, session controls, and session brief._
+
 Roundtable is designed for evaluation and reasoning diversity. It is not a guarantee of correctness. Multiple models can reinforce the same mistake, and one dissenting answer can be more useful than a polished consensus. The value comes from making disagreement, assumptions, and reasoning patterns visible.
 
 ## When To Use Roundtable

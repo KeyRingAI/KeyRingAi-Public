@@ -2,6 +2,13 @@
 
 All notable changes to this public developer resources repository are documented in this file.
 
+## 0.6.1 - 2026-04-17
+
+- Added public product screenshots to the README and applicable workflow docs.
+- Organized screenshots under `assets/screenshots/` with stable lowercase filenames.
+- Added a screenshot gallery and settings documentation page.
+- Re-ran public-safety scans for scaffolding text, private paths, secrets patterns, environment files, and Markdown links.
+
 ## 0.6.0 - 2026-04-17
 
 - Expanded the public repository into a fuller customer and developer documentation set.

@@ -2,6 +2,10 @@
 
 The prompt panel is the starting point for most KeyRing AI work. It is where the user writes the request, adds optional system context, chooses providers and models, enables workflow options, and decides whether the request should run as a direct provider call, Chatroom interaction, Roundtable input, tool-enabled task, or agent-driven workflow.
 
+![Request Options](../assets/screenshots/request-options.png)
+
+_Public screenshot: request options for streaming, Chatroom routing, model mentions, tool calling, agents, and response language controls._
+
 ## Prompt Composition
 
 A good KeyRing AI prompt should make the task, context, constraints, and expected output explicit. Because the same prompt may be sent to more than one provider, avoid relying on provider-specific wording unless you are intentionally testing that provider.

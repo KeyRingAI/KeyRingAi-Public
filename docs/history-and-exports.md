@@ -2,6 +2,10 @@
 
 KeyRing AI stores conversation history locally so users can review prior work, reload sessions, compare provider output, export selected records, and delete records that are no longer needed. History is a workspace feature, not a cloud sync service.
 
+![Conversation History](../assets/screenshots/conversation-history.png)
+
+_Public screenshot: local conversation history with search, filters, load, copy, export, and delete actions._
+
 ## What History Captures
 
 History can include prompts, provider responses, selected providers and models, timestamps, status, token information, cost estimates, tool traces or media references where applicable, and workflow metadata needed to reload or inspect a session.

@@ -2,6 +2,10 @@
 
 Model Configuration is where KeyRing AI shapes requests for specific providers and models. It is one of the most important parts of the product because modern AI providers do not all accept the same options, even when their APIs look similar at a high level.
 
+![Model Configuration](../assets/screenshots/model-configuration.png)
+
+_Public screenshot: Model Configuration with provider/model selection, profiles, quick toggles, live JSON summary, and per-model request controls._
+
 A safe AI workspace cannot assume that every model supports temperature, top-p, JSON schema output, tool choice, stop sequences, log probabilities, reasoning controls, cache hints, retrieval settings, or streaming in the same way. KeyRing AI treats model configuration as a policy layer: choose the intended behavior, then send only the settings that make sense for the selected provider and model.
 
 ## Configuration Scope

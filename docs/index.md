@@ -8,6 +8,7 @@ This folder contains public-facing KeyRing AI documentation for customers, devel
 - [Getting Started](getting-started.md) - original onboarding path for license, install, provider keys, first use, attachments, and Model Discovery.
 - [Getting Started With The Desktop App](getting-started-desktop.md) - practical first-session guide grounded in the desktop workspace.
 - [Desktop Workspace](desktop-workspace.md) - layout, navigation, status surfaces, and local-first product model.
+- [Screenshot Gallery](screenshot-gallery.md) - public product screenshots for the main workspace and feature surfaces.
 - [Workflow Examples](../examples/README.md) - concrete public-safe workflows and checklists.
 
 ## Core Workflows
@@ -19,6 +20,7 @@ This folder contains public-facing KeyRing AI documentation for customers, devel
 - [History And Exports](history-and-exports.md) - local records, search, load, export, and deletion expectations.
 - [Metrics And Costs](metrics-and-costs.md) - usage intelligence, estimated cost, latency, and export guidance.
 - [Notifications And Status](notifications-and-status.md) - provider status, update state, long-running jobs, and issue reporting.
+- [Settings](settings.md) - desktop notifications, app sizing, theme controls, and dangerous tool consent visibility.
 
 ## Providers And Models
 

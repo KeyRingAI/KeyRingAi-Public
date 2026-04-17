@@ -2,6 +2,10 @@
 
 Prompt Presets help users turn repeatable prompt patterns into reusable workspace assets. Instead of rewriting the same instruction every time, users can save, tag, search, insert, export, import, and back up prompt templates.
 
+![Prompt Presets](../assets/screenshots/prompt-presets.png)
+
+_Public screenshot: Prompt Presets with searchable saved prompts, tags, insert/copy actions, and backup/export/import controls._
+
 Presets are useful for teams that evaluate models, repeat review workflows, maintain standard analysis patterns, or want consistent output formats across providers.
 
 ## What A Preset Contains

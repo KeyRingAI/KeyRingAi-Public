@@ -2,6 +2,10 @@
 
 Metrics Intelligence helps users understand how KeyRing AI workflows use providers and models. It is designed for local evaluation, operational awareness, budgeting, and troubleshooting.
 
+![Metrics Intelligence](../assets/screenshots/metrics-intelligence.png)
+
+_Public screenshot: Metrics Intelligence with request, token, latency, cost, model, provider, event, recalculation, and export controls._
+
 Metrics are especially useful when a team is comparing models across cost, latency, token usage, error rate, and output usefulness. A model that gives a strong answer may still be unsuitable for a workflow if it is too slow, too expensive, unavailable too often, or inconsistent under the required settings.
 
 ## What Metrics Can Show

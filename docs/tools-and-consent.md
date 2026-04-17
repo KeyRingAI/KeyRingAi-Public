@@ -2,6 +2,10 @@
 
 Tools extend model workflows beyond text generation. They can help an agent inspect files, process data, run controlled operations, generate media, call network resources, or interact with provider-native capabilities. Because tools can change the risk profile of a workflow, KeyRing AI treats consent and scope as first-class product concepts.
 
+![Settings and tool consent](../assets/screenshots/settings.png)
+
+_Public screenshot: Settings surface showing desktop preferences and dangerous tool consent status._
+
 ## Why Consent Matters
 
 A normal prompt asks a model to produce text. A tool-enabled workflow may allow the model or agent to request an action. Depending on the tool, that action may read local files, write output, run code, make network requests, install dependencies, create generated media, or interact with a connected service.

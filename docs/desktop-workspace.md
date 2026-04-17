@@ -2,6 +2,20 @@
 
 KeyRing AI is built around a desktop workspace, not a web chat page. The app gives one operator a local control plane for working with multiple AI providers, comparing model output, organizing reusable prompts, attaching context, tracking usage, and deciding when advanced tool access is appropriate.
 
+## Screenshots
+
+![Expanded desktop workspace](../assets/screenshots/desktop-workspace-expanded-side-nav.png)
+
+_Public screenshot: expanded side navigation with provider selection, modes, request options, Chatroom, and prompt editor._
+
+![Collapsed desktop workspace](../assets/screenshots/desktop-workspace-collapsed.png)
+
+_Public screenshot: collapsed navigation for a wider working canvas._
+
+![Dock mode](../assets/screenshots/dock-mode.png)
+
+_Public screenshot: narrow dock mode for keeping KeyRing AI available beside other desktop work._
+
 The workspace is intentionally local-first. During normal model use, KeyRing AI sends the prompt, selected attachments, and request options directly from the desktop app to the selected AI provider using the user's own provider API key. The KeyRing AI website is used for account, license, download, and update workflows. It is not a prompt relay.
 
 ## Main Regions

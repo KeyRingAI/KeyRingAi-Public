@@ -2,6 +2,10 @@
 
 KeyRing AI gives users two complementary ways to read model output: provider tabs and the unified Chatroom. Provider tabs are best for direct comparison and provider-specific troubleshooting. Chatroom is best for reviewing a multi-model conversation as a single transcript.
 
+![Chatroom model responses](../assets/screenshots/chatroom-responses.png)
+
+_Public screenshot: Chatroom collecting multiple provider responses into a unified transcript._
+
 ## Provider Tabs
 
 Each provider tab represents output from one selected provider/model path. A tab can show readiness, streaming state, completion state, cancellation, retryable failure, configuration failure, token information, elapsed time, copy/export actions, and text-to-speech controls where available.

@@ -2,6 +2,10 @@
 
 Model Discovery helps KeyRing AI keep up with providers that release, rename, preview, or retire models. Instead of requiring every public model name to be hard-coded in advance, the desktop app can ask a configured provider for its available model inventory and save that inventory into the local provider configuration.
 
+![Provider Manager model discovery](../assets/screenshots/provider-manager.png)
+
+_Public screenshot: Provider Manager is where discovered models are reviewed, mapped, and saved for use across the workspace._
+
 The purpose is practical: when a provider releases a new model, the user should be able to discover it, save the provider configuration, and then select it in the relevant KeyRing AI workflows as long as the provider account can actually run it.
 
 ## What Discovery Does
