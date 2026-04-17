@@ -2,6 +2,13 @@
 
 All notable changes to this public developer resources repository will be documented in this file.
 
+## 0.5.0 - 2026-04-17
+
+- Replaced scaffolding language with concrete public product documentation.
+- Rewrote the repository README with a clearer documentation map and product-boundary summary.
+- Replaced the examples index with real public workflow examples for provider setup, provider comparison, Model Discovery, reasoning models, attachments, and troubleshooting.
+- Expanded quickstart, getting-started, provider API key, and documentation index pages with practical onboarding guidance.
+
 ## 0.4.0 - 2026-04-16
 
 - Added public architecture overview documentation.
@@ -26,4 +33,4 @@ All notable changes to this public developer resources repository will be docume
 ## 0.1.0 - 2026-04-16
 
 - Created initial public developer resources repository.
-- Added README, notice, conservative license placeholder, quickstart, examples index, and security reporting guidance.
+- Added README, notice, quickstart, examples index, and security reporting guidance.

@@ -41,7 +41,17 @@ Prepare:
 
 OpenAI, Anthropic Claude, and Google Gemini are common first providers because their public dashboard flows are widely documented and map cleanly to typical KeyRing AI workflows.
 
-Use the official provider portals, not third-party credential-sharing sites.
+Use official provider portals. Do not use third-party credential-sharing sites, leaked keys, shared organization keys, or keys copied from someone else's account.
+
+## Provider Setup Matrix
+
+| Provider-Side Item | Why It Matters |
+| --- | --- |
+| API key | Authenticates requests from your desktop app to the provider. |
+| Billing or credits | Many providers reject API calls until billing is active. |
+| Model access | Some models require plan access, allowlisting, region support, or a minimum account state. |
+| Rate limits | Provider throttling can look like app failure if the account is over quota. |
+| Terms and data policy | The selected provider receives prompts, attachments, and context you send to it. |
 
 ## What Happens After Save
 
@@ -66,6 +76,17 @@ A provider is operational only when all of these are true:
 5) The provider account itself has working API access and billing
 ```
 
+## Key Hygiene
+
+Treat provider API keys like passwords:
+
+- Create separate keys for testing, daily work, and sensitive workflows where the provider supports it.
+- Use provider dashboards to revoke keys you no longer need.
+- Rotate a key immediately if it appears in a screenshot, GitHub commit, support log, chat transcript, or shared document.
+- Do not paste provider keys into prompts.
+- Do not include provider keys in public GitHub issues or public examples.
+- Avoid using a personal key for team workflows unless that is intentional and approved.
+
 ## Common Issues
 
 - **Invalid key:** generate a fresh key in the provider dashboard and save it again.
@@ -73,11 +94,8 @@ A provider is operational only when all of these are true:
 - **Model unavailable:** choose a model your provider account can access.
 - **Provider inactive:** enable it in the relevant KeyRing workspace controls.
 - **Wrong provider card:** make sure the key is saved on the matching provider.
+- **New model discovered but failing:** confirm your provider account has access and remove unsupported advanced settings.
 
-## Safety Notes
+## Security Reminder
 
-- Never commit provider API keys to GitHub.
-- Never include real API keys in screenshots, logs, examples, or support snippets.
-- Treat provider keys like passwords.
-- Rotate a key immediately if it is exposed.
-- Use separate provider keys for testing and production workflows where possible.
+KeyRing AI's local-first design keeps normal provider requests on the desktop-to-provider path. It does not change the fact that the selected provider receives the content you send to it. Review provider terms before sending sensitive information.

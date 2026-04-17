@@ -4,24 +4,42 @@ KeyRing AI is a Windows desktop application for working with multiple AI provide
 
 ## Platform Availability
 
-KeyRing AI is currently available for Windows 10 and later, 64-bit. macOS and Linux builds are planned separately.
+KeyRing AI is currently available for Windows 10 and later, 64-bit. macOS and Linux builds are not part of the current public desktop release.
+
+## Core Concepts
+
+Before installing, understand the product model:
+
+- **Desktop-first:** normal AI work happens in the desktop app.
+- **Bring your own provider keys:** you connect your own provider accounts.
+- **Direct provider path:** normal prompts go from your machine to the provider you select.
+- **Website trust layer:** the website handles account, license, downloads, updates, support, pricing, and docs.
+- **Provider differences matter:** each provider controls its own models, billing, quotas, API rules, and data terms.
 
 ## What You Can Do
 
 - Query multiple AI providers from one workspace, subject to your plan and provider access.
-- Compare model output in Chatroom view or individual provider tabs.
+- Compare model output in Chatroom view and provider-specific response surfaces.
 - Run Roundtable sessions where multiple AI systems discuss the same topic.
 - Build and run custom AI agents where supported by your product tier.
 - Attach files and control which providers receive that context.
+- Discover provider models and map product modes to available models.
 - Keep provider API key handling local to your desktop environment.
 
-## Onboarding Path
+## First Hour Checklist
 
-The basic setup path has three parts:
+A practical first-hour setup looks like this:
 
-1. Get your KeyRing AI license.
-2. Install and activate the desktop app.
-3. Connect provider accounts and send your first prompt.
+1. Create or sign in to your KeyRing AI account.
+2. Copy your license key from the dashboard.
+3. Install the Windows desktop app from the official download page.
+4. Activate the app with your license key.
+5. Configure one provider API key.
+6. Send a short single-provider prompt.
+7. Add a second provider.
+8. Compare both providers on the same prompt.
+9. Open Provider Manager and run Model Discovery for one provider.
+10. Save the discovery result and verify the provider still works in the workspace.
 
 ## Get Your License
 
@@ -30,7 +48,7 @@ The basic setup path has three parts:
 3. Choose the appropriate plan or beta path.
 4. Copy your license key from the dashboard.
 
-Keep your license key private. It is used to activate the desktop app and determine the features available to your installation.
+Keep your license key private. It activates the desktop app and determines the features available to your installation.
 
 ## Install And Activate
 
@@ -71,7 +89,7 @@ Then enable two or more providers and compare results:
 Compare the pros and cons of three different product launch strategies. Give a concise recommendation at the end.
 ```
 
-## Attachments Quickstart
+## Use Attachments Deliberately
 
 The desktop app supports attaching files as context for provider requests.
 
@@ -82,7 +100,18 @@ Public behavior to understand:
 - Lower-context modes can send metadata or filenames instead of full file contents.
 - Provider-scoped attachments help compare providers with different evidence.
 
-Do not place private customer data, secrets, or proprietary source code into public examples.
+Do not send secrets, regulated data, customer data, or proprietary source code to a provider unless that provider and workflow are approved for that data.
+
+## Use Model Discovery
+
+Provider model catalogs change frequently. Use Provider Manager when:
+
+- A provider releases a new model.
+- A model disappears or is renamed.
+- You need to map a product mode to a different model.
+- A provider error suggests the selected model is not available.
+
+Discovery results must be saved before they become durable in KeyRing AI.
 
 ## Troubleshooting
 
@@ -93,3 +122,12 @@ Common first-run issues:
 - **No output in a tab:** confirm the provider is enabled in the active workspace controls.
 - **Plan restriction:** confirm the provider is included in your KeyRing AI license tier.
 - **First launch feels slow:** this is expected while the local runtime initializes.
+- **Newly discovered model fails:** confirm your provider account actually has access and retry without unsupported advanced settings.
+
+## Where To Go Next
+
+- [Quickstart](quickstart.md)
+- [Provider API Keys](provider-api-keys.md)
+- [Provider Manager](provider-manager.md)
+- [Reasoning Models](reasoning-models.md)
+- [Security and Trust Model](security-and-trust.md)
